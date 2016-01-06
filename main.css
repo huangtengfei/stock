@@ -1,5 +1,30 @@
 .container {
-	width: 150px;
-	height: 80px;
-	padding: 20px;
+	width: 280px;
+	min-height: 100px;
+	max-height: 300px;
+	overflow-y: auto;
+	padding: 10px 5px;
+}
+
+table {
+	margin: 0 auto;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+table th {
+	padding: 8px 25px;
+}
+
+table td {
+	padding: 8px 25px;
+}
+
+tbody tr:hover {
+	background: #f5fafe;
+}
+
+.add {
+	text-align: center;
+	margin-top: 10px;
 }
